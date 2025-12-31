@@ -2,6 +2,7 @@ import streamlit as st
 from auth import login, logout
 from permissions import require_login
 from modules import dashboard, users, products, raw_materials
+st.secrets
 
 st.set_page_config(page_title="Perfume SaaS", layout="wide")
 
